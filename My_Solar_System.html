@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+          <a-scene background="color: midnightblue">
+      <!-- Asset management system -->
+      <a-assets>
+        <img 
+          id="space"
+          src="space.jpg">
+        <img 
+          id="sun" 
+          src="sun.jpg">
+        <img 
+          id="mercury"
+          src="mercurybump.jpg">
+        <img 
+          id="venus"
+          src="mercurymap.jpg">
+        <img
+          id="venus2"
+          src="venusmap.jpg">
+        <img
+          id="venus2moon"
+          src="venusbump.jpg">
+        <img
+          id="superearthA"
+          src="earthmap1k.jpg">
+        <img 
+          id="mars"
+          src="mars.jpg">
+        <img 
+          id="jupiter"
+          src="jupiter.jpg">
+        <img 
+          id="saturn"
+          src="saturn.jpg">
+        <img 
+          id="uranus"
+          src="uranus.jpg">
+        <img 
+          id="neptune"
+          src="neptune.jpg"> 
+        <img
+        id="realsun"
+        src="sunmap.jpg">
+
+      <img id="supermoon"
+      src="superearth.jpg">
+
+      </a-assets>
+      <!--- BG --->
+      <a-sky src="#space"></a-sky>
+      <!--- Sun --->
+      <a-sphere 
+      color="#F5C85D"
+      position="-20 2 -16" 
+      radius="8"
+      src="#realsun">
+      </a-sphere>
+      <!--- Rocky planets --->
+
+      <!-- Planet A --->
+      <a-sphere 
+      color="#363532"
+      position="-7.5 2 -15"
+      radius="0.7"
+      src="#mercury">
+      </a-sphere>
+      <!-- Planet B --->
+      <a-sphere 
+      color="#473c1a"
+      position="-5 2 -15"
+      radius="1"
+      src="#venus">
+      </a-sphere>
+      <!-- Planet C & Moon --->
+      <a-sphere 
+      color="#7e6824"
+      position="-1 2 -15"
+      radius="1.2"
+      src="#venus2">
+      </a-sphere>
+      <!--- Moon --->
+      <a-sphere 
+      color="#2e2d2a"
+      position="-1.2 2 -13"
+      radius="0.3"
+      src="#venus2moon">
+      </a-sphere>
+     <!-- SuperEarth A & Moon --->
+      <a-sphere 
+      color="#173076"
+      position="3.7 2 -15"
+      radius="1.5"
+      src="#superearthA">
+      </a-sphere>
+      <!--- Moon --->
+      <a-sphere 
+      color="#165362"
+      position="3.5 2.5 -12"
+      radius="0.5"
+      src="#supermoon">
+      </a-sphere>
+      <!-- Planet D & Moons A & B --->
+      <a-sphere 
+      color="#8998ae"
+      position="9.5 2 -15"
+      radius="1.7">
+      </a-sphere>
+      <!--- Moon A --->
+      <a-sphere 
+      color="#5d6168"
+      position="9.2 2.5 -12"
+      radius="0.3">
+      </a-sphere>
+      <!--- Moon B --->
+      <a-sphere 
+      color="#46494d"
+      position="7 2 -12"
+      radius="0.4">
+      </a-sphere>
+      
+      <!--- Big Planet A --->
+      <a-sphere 
+      color="#5e2c00"
+      position="20 2 -12"
+      radius="2.3">
+      </a-sphere>
+      <!--- Big Planet B --->
+      <a-sphere 
+      color="#1b4b4b"
+      position="35 2 -12"
+      radius="2.5">
+      </a-sphere>
+      <!--- Planet X --->
+      <a-sphere 
+      color="#073333"
+      position="100 2 -12"
+      radius="7">
+      </a-sphere>
+    </a-scene>
+  </body>
+</html>
